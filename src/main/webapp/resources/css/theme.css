@@ -1,0 +1,15 @@
+.heading-banner {
+	padding-left: 30px;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	color: #FFFFFF;
+	background: #006699;
+}
+
+h1.heading-banner  {
+	margin-top: 0px;
+}
+
+.bottom-spacer {
+	padding-bottom: 50px;
+}
