@@ -71,7 +71,7 @@
 						</button>
 						<h4 class="modal-title" id="addPersonModalLabel">Add Person</h4>
 					</div>
-					
+
 					<form id="add-person-form" name="person" action="addPerson"
 						method="post">
 						<div class="modal-body">
@@ -89,7 +89,7 @@
 									name="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
-						
+
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default"
 								data-dismiss="modal">Close</button>

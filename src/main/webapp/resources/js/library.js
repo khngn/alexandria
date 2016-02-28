@@ -23,16 +23,15 @@ function findBooksOf(personId) {
 		},
 		error : function(e) {
 			console.log("AJAX ERROR: ", e);
-//			display(e);
 		},
 		done : function(e) {
 			console.log("AJAX DONE: ", e);
-//			enableSearchButton(true);
 		}
 	});
 };
 
 function displayBooks(books) {
+	// use Mustache js to render html
 	var template = '<thead><tr><th>Title</th><th>Author</th><th>ISBN</th></tr></thead>'
 		+ '{{#.}}<tr><td>{{title}}</td><td>{{author}}</td><td>{{isbn}}</td></tr>{{/.}}';
 	$('table[id="checkout-tbl"]').html(Mustache.render(template, books));

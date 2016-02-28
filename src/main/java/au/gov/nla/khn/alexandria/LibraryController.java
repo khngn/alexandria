@@ -52,7 +52,7 @@ public class LibraryController {
 	 */
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String index(@ModelAttribute("model") ModelMap model) {
-		LOGGER.debug("@Request /index");
+		LOGGER.debug("@RequestMapping /index");
 		// find all Persons
 		List<Person> persons = personService.findAll();
 		model.addAttribute("persons", persons);
@@ -67,6 +67,7 @@ public class LibraryController {
 	@RequestMapping(value = "/api/findBooksByPersonId", method = RequestMethod.POST)
 	@ResponseBody
 	public List<Book> findBooksByPersonId(@RequestBody String personId) {
+		LOGGER.debug("findBooksByPersonId({})", personId);
 		List<Book> books = personService.findBooksOf(Integer.valueOf(personId));
 		return books;
 	}
@@ -79,7 +80,7 @@ public class LibraryController {
 	 */
 	@RequestMapping(value = "/addPerson", method = RequestMethod.POST)
 	public String add(@ModelAttribute("person") Person person) {
-
+		LOGGER.debug("add({})", person);
 		if (person != null && person.isValid()) {
 			personService.add(person.getName(), person.getPhoneNumber(), person.getEmail());
 		}

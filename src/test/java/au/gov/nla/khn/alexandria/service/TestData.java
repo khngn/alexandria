@@ -30,13 +30,6 @@ enum TestData {
 	private final DataSource DATA_SOURCE = JdbcConnectionPool.create("jdbc:h2:mem:libraryTest", "user", "password");
 	private final DBI DBI = new DBI(DATA_SOURCE);
 	
-//	/**
-//	 * Initialise
-//	 */
-//	public void init() {
-//		runScript("test_data_create_schema.sql");
-//	}
-	
 	/**
 	 * Reset all tables data
 	 */
