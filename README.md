@@ -1,4 +1,4 @@
-# alexandria
+# MyLib
 Library demo web-app (Spring-mvc FreeMarker JDBI Ajax jQuery Bootstrap)
 
 <ul>
