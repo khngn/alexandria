@@ -15,13 +15,6 @@
 <link rel="stylesheet" href="resources/css/scrolling-nav.css">
 <link rel="stylesheet" href="resources/css/theme.css">
 
-<script src="resources/js/jquery.min.js"></script>
-<script src="resources/js/bootstrap.min.js"></script>
-<script src="resources/js/jquery.easing.min.js"></script>
-<script src="resources/js/scrolling-nav.js"></script>
-<script src="resources/js/mustache.min.js"></script>
-<script src="resources/js/library.js"></script>
-
 <link href='https://fonts.googleapis.com/css?family=Merriweather'
 	rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans'
@@ -83,7 +76,7 @@
 			<div class="row ">
 				<#list model["persons"] as person>
 				<div class="col-lg-4 col-sm-6 member-tile-wrapper">
-					<div class="member-tile">
+					<div class="member-tile w3-card-8">
 						<div class="member-name">${person.name}</div>
 						<div class="member-phone">${person.phoneNumber}</div>
 						<div class="member-email">${person.email}</div>
@@ -196,7 +189,7 @@
 			<div class="row book-bottom-spacer">
 				<div class="col-md-2 col-sm-3">
 					<img src="${book.coverSrc}" alt="${book.title}"
-						title="${book.title}" class="img-responsive">
+						title="${book.title}" class="img-responsive book-cover">
 				</div>
 				<div class="col-md-10 col-sm-9">
 					<div class="book-title">${book.title}</div>
@@ -212,6 +205,15 @@
 			</#list>
 		</div>
 	</section>
+	
+	
+
+	<script src="resources/js/jquery.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/jquery.easing.min.js"></script>
+	<script src="resources/js/scrolling-nav.js"></script>
+	<script src="resources/js/mustache.min.js"></script>
+	<script src="resources/js/library.js"></script>
 </body>
 
 </html>
