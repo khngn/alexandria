@@ -1,15 +1,128 @@
-.heading-banner {
-	padding-left: 30px;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	color: #FFFFFF;
-	background: #006699;
+body {
+	/* font-family: "Merriweather", "Georgia", serif; */
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1.heading-banner  {
-	margin-top: 0px;
+.navbar-default {
+    background-color: #324851;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #7DA3A1;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #34675C;
+}
+
+.jumbo-intro  {
+	font-size: 240px;
+	font-weight: bolder;
+	color: white;
+}
+
+.book-bottom-spacer {
+	padding-bottom: 2em;
+}
+
+.book-title {
+	font-size: 2em;
+	color: #7DA3A1;
+}
+
+.book-author {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.book-isbn {
+	font-family: "Courier New", sans-serif;
+}
+
+.by {
+	font-size: 1em;
+}
+
+.book-summary-text {
+	font-size: 1.2em;
+	font-family: "Georgia", serif;
+	color: #F7EFE2;
+}
+
+.spacer-top {
+	padding-top: 15px;
+}
+
+.spacer-bottom {
+	padding-bottom: 15px;
 }
 
 .bottom-spacer {
 	padding-bottom: 50px;
+}
+
+.intro-section {
+    background-color: #324851;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.members-section {
+    height: 100%;
+    padding-top: 75px;
+    background: #fff;
+}
+
+.books-section {
+	font-family: "Merriweather", "Georgia", serif;
+    padding-top: 75px;
+    background: #324851;
+    color: white;
+}
+
+.member-tile-wrapper {
+	margin-right: -20px;
+	margin-bottom: 10px;
+}
+
+.member-tile {
+	color: white;
+	background: #324851;
+	padding: 15px 25px 20px 25px;
+	white-space: normal; /* wrap the words */
+}
+
+.member-name {
+	font-family: "Merriweather", "Georgia", serif;
+	font-size: 2.2em;
+}
+
+.member-phone {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.member-find-books-btn {
+	margin-top: -30px;
+}
+
+#member-books-container {
+	display: block;
+}
+
+#member-books-container .book-title {
+	font-size: 1.2em;
+}
+
+#member-books-container .book-author {
+	font-size: 1em;
+}
+
+#member-books-container .by {
+	font-size: 0.8em;
 }

@@ -50,9 +50,9 @@ public class LibraryController {
 	 * @param model
 	 * @return the index view name (FTL)
 	 */
-	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public String index(@ModelAttribute("model") ModelMap model) {
-		LOGGER.debug("@RequestMapping /index");
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home(@ModelAttribute("model") ModelMap model) {
+		LOGGER.debug("@RequestMapping /home");
 		// find all Persons
 		List<Person> persons = personService.findAll();
 		model.addAttribute("persons", persons);
@@ -60,8 +60,8 @@ public class LibraryController {
 		// find all Books
 		List<Book> books = bookService.findAll();
 		model.addAttribute("books", books);
-
-		return "index";
+		
+		return "home";
 	}
 
 	@RequestMapping(value = "/api/findBooksByPersonId", method = RequestMethod.POST)
@@ -71,12 +71,12 @@ public class LibraryController {
 		List<Book> books = personService.findBooksOf(Integer.valueOf(personId));
 		return books;
 	}
-
+	
 	/**
 	 * Add a new Person
 	 * 
 	 * @param person
-	 * @return redirect to /index page to display the new list
+	 * @return redirect to refresh page to display the new list
 	 */
 	@RequestMapping(value = "/addPerson", method = RequestMethod.POST)
 	public String add(@ModelAttribute("person") Person person) {
@@ -85,7 +85,7 @@ public class LibraryController {
 			personService.add(person.getName(), person.getPhoneNumber(), person.getEmail());
 		}
 
-		return "redirect:index";
+		return "redirect:home#members";
 	}
 
 }

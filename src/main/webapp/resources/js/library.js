@@ -32,7 +32,14 @@ function findBooksOf(personId) {
 
 function displayBooks(books) {
 	// use Mustache js to render html
-	var template = '<thead><tr><th>Title</th><th>Author</th><th>ISBN</th></tr></thead>'
-		+ '{{#.}}<tr><td>{{title}}</td><td>{{author}}</td><td>{{isbn}}</td></tr>{{/.}}';
-	$('table[id="checkout-tbl"]').html(Mustache.render(template, books));
+	/*var template = '<thead><tr><th>Title</th><th>Author</th><th>ISBN</th></tr></thead>'
+		+ '{{#.}}<tr><td>{{title}}</td><td>{{author}}</td><td>{{isbn}}</td></tr>{{/.}}';*/
+	
+	var template = '{{#.}}<div class="col-lg-4 col-sm-6"><div class="row spacer-bottom">'
+		+'<div class="col-lg-4 col-sm-6"><img src="{{coverSrc}}" alt="{{title}}" class="img-responsive"></div>'
+		+'<div class="col-lg-8 col-sm-6"><div class="book-title">{{title}}</div>'
+		+'<div><span class="by">by</span>&#160;<span class="book-author">{{author}}</span></div>'
+		+'<div class="book-isbn spacer-top">ISBN: {{isbn}}</div>'
+		+'</div></div></div>{{/.}}';
+	$('#member-books-container').html(Mustache.render(template, books));
 };

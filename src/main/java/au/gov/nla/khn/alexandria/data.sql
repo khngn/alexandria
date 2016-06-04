@@ -34,27 +34,27 @@ CREATE TABLE CHECKOUT
 INSERT INTO PERSON 
 (NAME, PHONE_NUMBER, EMAIL)
 VALUES 
-('John Orange', '0402 258 789', 'john@lib.com'),
-('Mike Mandarin', '0402 258 789', 'mike@lib.com'),
-('Peter Apricot', '0402 258 789', 'peter@lib.com'),
-('Dylan Plum', '0402 258 789', 'dylan@lib.com'),
-('Bruce Papaya', '0402 258 789', 'bruce@lib.com'),
-('Andy Tangalo', '0402 258 789', 'andy@lib.com')
+('Anthony Doerr', '0403 658 759', 'john@lib.com'),
+('Geraldine Brooks', '0402 268 989', 'mike@lib.com'),
+('Kate Morton', '0401 258 789', 'peter@lib.com'),
+('Hanya Yanagihara', '0405 256 889', 'dylan@lib.com'),
+('Marlon James', '0407 258 799', 'bruce@lib.com'),
+('Robert Galbraith', '0409 358 789', 'andy@lib.com')
 ;
 
 INSERT INTO BOOK 
 (TITLE, AUTHOR, ISBN)
 VALUES 
-('All the Light We Cannot See', 'Anthony Doerr', 133456789258),
-('The Secret Chord', 'Geraldine Brooks', 4586789258369),
-('The Lake House', 'Kate Morton', 456852753963),
-('A Little Life', 'Hanya Yanagihara', 159357148357),
-('A Brief History of Seven Killings', 'Marlon James', 123478654487),
-('Career of Evil', 'Robert Galbraith', 123654789456),
-('Purity', 'Jonathan Franzan', 789456123852),
-('Big Little Lies', 'Liane Moriarty', 852321789654),
-('Go Set a Watchman', 'Harper Lee', 963214521785),
-('The Girl in the Spider''s Web', 'David Lagercrantz', 214236258247)
+('All the Light We Cannot See', 'Anthony Doerr', 3456789258),
+('The Secret Chord', 'Geraldine Brooks', 6789258369),
+('The Lake House', 'Kate Morton', 6852753963),
+('A Little Life', 'Hanya Yanagihara', 9357148357),
+('A Brief History of Seven Killings', 'Marlon James', 3478654487),
+('Career of Evil', 'Robert Galbraith', 3654789456),
+('Purity', 'Jonathan Franzan', 9456123852),
+('Big Little Lies', 'Liane Moriarty', 2321789654),
+('Go Set a Watchman', 'Harper Lee', 3214521785),
+('The Girl in the Spider''s Web', 'David Lagercrantz', 4236258247)
 ;
 
 INSERT INTO CHECKOUT 
@@ -62,12 +62,15 @@ INSERT INTO CHECKOUT
 VALUES 
 (1,1, CURRENT TIMESTAMP),
 (1,3, CURRENT TIMESTAMP),
+(1,5, CURRENT TIMESTAMP),
 (2,2, CURRENT TIMESTAMP),
 (2,4, CURRENT TIMESTAMP),
 (2,6, CURRENT TIMESTAMP),
 (3,3, CURRENT TIMESTAMP),
 (3,4, CURRENT TIMESTAMP),
 (4,5, CURRENT TIMESTAMP),
+(4,6, CURRENT TIMESTAMP),
+(4,7, CURRENT TIMESTAMP),
 (5,6, CURRENT TIMESTAMP),
 (6,6, CURRENT TIMESTAMP),
 (6,7, CURRENT TIMESTAMP),
