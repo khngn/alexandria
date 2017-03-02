@@ -33,7 +33,7 @@ public class LibraryController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(LibraryController.class);
 
 	@Autowired
-	private LibraryServices services;
+	private LibraryServiceLookup services;
 	
 	private PersonService personService;
 	private BookService bookService;
