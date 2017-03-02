@@ -66,7 +66,7 @@
 	<!-- Intro Section -->
 	<section id="intro" class="intro-section">
 		<div class="container">
-			<div class="jumbo-intro">Hello...</div>
+			<div class="jumbo-intro">Hello :)</div>
 		</div>
 	</section>
 
