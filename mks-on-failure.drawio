@@ -47,7 +47,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="274" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="608" />
+              <mxPoint x="190" y="620" />
               <mxPoint x="190" y="483" />
               <mxPoint x="290" y="483" />
             </Array>
@@ -57,7 +57,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-18" value="" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
-          <mxGeometry x="80" y="602" width="78" height="47" as="geometry" />
+          <mxGeometry x="80" y="609" width="78" height="47" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-22" value="On object-created&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.2)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-20" target="d1aQsJZGRrAFsnmFgu7d-18">
           <mxGeometry relative="1" as="geometry" />
@@ -66,7 +66,7 @@
           <mxGeometry x="95.5" y="486" width="47" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-26" value="DLQ" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
-          <mxGeometry x="308" y="602" width="78" height="47" as="geometry" />
+          <mxGeometry x="335" y="609" width="78" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
