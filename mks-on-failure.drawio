@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.8.6">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2148" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1473" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-13" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="UEzPUAAOIrF-is8g5C7q-115" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-13" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="UEzPUAAOIrF-is8g5C7q-115" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="229.5" as="targetPoint" />
           </mxGeometry>
@@ -22,10 +22,10 @@
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-1" value="MSK" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-6" value="(1.2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="UEzPUAAOIrF-is8g5C7q-115" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-6" value="(1.2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="UEzPUAAOIrF-is8g5C7q-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-7" value="(1.1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="d1aQsJZGRrAFsnmFgu7d-1" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-7" value="(1.1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="d1aQsJZGRrAFsnmFgu7d-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-17" value="Failed Events&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.1)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="d1aQsJZGRrAFsnmFgu7d-3" edge="1">
@@ -68,7 +68,7 @@
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-26" value="DLQ" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" parent="1" vertex="1">
           <mxGeometry x="335" y="609" width="78" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-30" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-32" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-30" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1040" y="229.5" as="targetPoint" />
           </mxGeometry>
@@ -88,10 +88,10 @@
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-33" value="MSK" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" parent="1" vertex="1">
           <mxGeometry x="680" y="40" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-34" value="(1.2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-37" target="d1aQsJZGRrAFsnmFgu7d-32" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-34" value="(1.2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-37" target="d1aQsJZGRrAFsnmFgu7d-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-35" value="(1.1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-37" target="d1aQsJZGRrAFsnmFgu7d-33" edge="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-35" value="(1.1)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#00FF00;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-37" target="d1aQsJZGRrAFsnmFgu7d-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-36" value="Failed Events&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.1)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" parent="1" source="d1aQsJZGRrAFsnmFgu7d-37" target="d1aQsJZGRrAFsnmFgu7d-43" edge="1">
