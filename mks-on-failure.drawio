@@ -124,6 +124,12 @@
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-46" value="DLQ" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" parent="1" vertex="1">
           <mxGeometry x="935" y="609" width="78" height="47" as="geometry" />
         </mxCell>
+        <mxCell id="JeBPcXctmyzomFUEPh02-2" value="S3 as on-failure destination" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=0;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JeBPcXctmyzomFUEPh02-3" value="SQS as on-failure destination" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=0;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
