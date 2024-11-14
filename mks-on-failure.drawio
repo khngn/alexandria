@@ -4,16 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-13" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-115" target="d1aQsJZGRrAFsnmFgu7d-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-13" value="(1.3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="229.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UEzPUAAOIrF-is8g5C7q-115" value="CSA Events Consumer" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="251" y="166.5" width="78" height="78" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-29" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Retrieve Failed event data&lt;/div&gt;(2.4)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="UEzPUAAOIrF-is8g5C7q-115" target="d1aQsJZGRrAFsnmFgu7d-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="417" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UEzPUAAOIrF-is8g5C7q-123" value="Amazon&lt;br&gt;CloudWatch Logs&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;gradientDirection=north;fillColor=#F34482;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.cloudwatch;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="800.5000000000002" y="701.5" width="78" height="78" as="geometry" />
+        <mxCell id="UEzPUAAOIrF-is8g5C7q-115" value="CSA Events Consumer" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;labelBackgroundColor=#FFFFFF;labelBorderColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="251" y="190.5" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-1" value="MSK" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-6" value="(1.2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-2" target="UEzPUAAOIrF-is8g5C7q-115">
@@ -26,28 +32,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-2" value="Trigger" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.triggers;fillColor=#0078D7;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="95.5" y="180.5" width="47" height="50" as="geometry" />
+          <mxGeometry x="95.5" y="204.5" width="47" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-3" target="d1aQsJZGRrAFsnmFgu7d-20">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-3" target="d1aQsJZGRrAFsnmFgu7d-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
-          <mxGeometry x="81.5" y="354" width="75" height="78" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-3" value="On-failure desitination" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
+          <mxGeometry x="81.5" y="367" width="75" height="78" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-8" value="Postgres" style="aspect=fixed;html=1;align=center;fontSize=14;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
           <mxGeometry x="440" y="162.5" width="64.5" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-18" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
-          <mxGeometry x="80" y="560" width="78" height="47" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-24" value="Trigger retrying&lt;div style=&quot;font-size: 14px;&quot;&gt;Failed event&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.3)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-18" target="UEzPUAAOIrF-is8g5C7q-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="274" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="608" />
+              <mxPoint x="190" y="483" />
+              <mxPoint x="290" y="483" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-20" target="d1aQsJZGRrAFsnmFgu7d-18">
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-28" value="Failed retrying&lt;div style=&quot;font-size: 14px;&quot;&gt;messages&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(3.1)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-18" target="d1aQsJZGRrAFsnmFgu7d-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-20" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.triggers;fillColor=#0078D7;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="95.5" y="471" width="47" height="50" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-18" value="" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
+          <mxGeometry x="80" y="602" width="78" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="d1aQsJZGRrAFsnmFgu7d-23" value="CSA Events Consumer" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="251" y="544.5" width="78" height="78" as="geometry" />
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-22" value="On object-created&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.2)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-20" target="d1aQsJZGRrAFsnmFgu7d-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-20" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.triggers;fillColor=#0078D7;fontSize=14;fontColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="95.5" y="486" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d1aQsJZGRrAFsnmFgu7d-26" value="DLQ" style="sketch=0;outlineConnect=0;fontColor=#F19C99;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
+          <mxGeometry x="308" y="602" width="78" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
