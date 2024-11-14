@@ -41,7 +41,7 @@
           <mxGeometry x="81.5" y="367" width="75" height="78" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-8" value="Postgres" style="aspect=fixed;html=1;align=center;fontSize=14;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
-          <mxGeometry x="440" y="162.5" width="64.5" height="86" as="geometry" />
+          <mxGeometry x="440" y="186.5" width="64.5" height="86" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-24" value="Trigger retrying&lt;div style=&quot;font-size: 14px;&quot;&gt;Failed event&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.3)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-18" target="UEzPUAAOIrF-is8g5C7q-115">
           <mxGeometry relative="1" as="geometry">
@@ -103,7 +103,7 @@
           <mxGeometry x="695.5" y="204.5" width="47" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-40" value="Postgres" style="aspect=fixed;html=1;align=center;fontSize=14;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;fontStyle=0;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="162.5" width="64.5" height="86" as="geometry" />
+          <mxGeometry x="1040" y="186.5" width="64.5" height="86" as="geometry" />
         </mxCell>
         <mxCell id="d1aQsJZGRrAFsnmFgu7d-41" value="Trigger retrying&lt;div style=&quot;font-size: 14px;&quot;&gt;Failed event&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;(2.3)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F19C99;" edge="1" parent="1" source="d1aQsJZGRrAFsnmFgu7d-43" target="d1aQsJZGRrAFsnmFgu7d-32">
           <mxGeometry relative="1" as="geometry">
